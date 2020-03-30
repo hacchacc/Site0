@@ -6,6 +6,7 @@
   <link href="style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.css">
   <title>
     Petre Stefan's blog
   </title>
@@ -90,20 +91,30 @@
       4:00h Texture</br>
       0:30h Render</br>
     </p>
+    <selection class="gallery-block">
     <div class="row">
       <div class="col-md">
+        <a class="lightbox" href="p2020/1.png">
     <img src="p2020/1.png" alt="side-photo" class="img-thumbnail">
+  </a>
   </div>
   <div class="col-md">
+    <a class="lightbox" href="p2020/2.png">
     <img src="p2020/2.png" alt="back-photo" class="img-thumbnail">
+  </a>
   </div>
   <div class="col-md">
+    <a class="lightbox" href="p2020/3.png">
     <img src="p2020/3.png" alt="front-photo" class="img-thumbnail">
+  </a>
   </div>
   </div>
     <center>
+      <a class="lightbox" href="p2020/4.png">
   <img src="p2020/4.png" alt="concept" class="img-thumbnail">
+</a>
 </center>
+</selection>
   <p class="display-5"> Making this gun was helping me improve my hardsurface modeling and texture painting.</br>
     Also it was my first time using other software for texturing rather than blender and I say that I'm quite happy with the results I got.</br>
     The technique that I use for modeling was to have reference of the gun facing sideways so I could have a easier time trying to model it.
@@ -146,11 +157,15 @@
 </div>
 </div>
   <footer class="sticky-bottom"><center>2020 © All right reserved by Petre Stefan</center></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.js" ></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
   integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ <script>
+   baguetteBox.run('.gallery-block', {animation: 'slideIn'});
+ </script>
 </body>
 </html>
