@@ -13,6 +13,9 @@
   .display-3 {
     text-align: center;
   }
+  .row{
+    padding-bottom: 2%;
+  }
   .navbar-nav .nav-link {
   color: rgba(236,0,127,.75) !important;
   transition: all 0.5s ease;
