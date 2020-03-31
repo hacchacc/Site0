@@ -2,16 +2,31 @@
   nav{
     background-color: #111;
   }
-  .jumbotron{
+  em{
+    color:rgba(236,0,127,1);
+  }
+  a{
+    color:rgba(236,0,127,.75) !important;
+    text-decoration: none !important;
+  }
+  a:hover{
+    color:rgba(236,0,127,1) !important;
+  }
+  .jumbotron {
     margin-top: 10%;
     background-color: #151515 !important;
-    color:#eee;
+    color:#fff;
   }
-  p{
+  .display-4{
+  color:#fff;
+  }
+  .jumbotron ul, .jumbotron ol,p{
     margin: 2% !important;
+    color: #ccc;
   }
-  .display-3 {
+  .display-3, .display-1 ,h3{
     text-align: center;
+    color: rgba(236,0,127,1);
   }
   .row{
     padding-bottom: 2%;
@@ -59,14 +74,12 @@
     background-color: #000 !important;
     color: rgba(236,0,127,.75) !important;
   }
-  center{
-    background-color: #111;
-  }
   html,body,header,#intro{
     height:100%;
   }
   footer{
     color:#ccc;
+    background-color: #111;
   }
   #intro{
     background:url(Backg.png)no-repeat center center fixed;
